@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-chmod +x bin/mega_lotto_anna
-
 require_relative "../lib/mega_lotto_anna/drawing"
 
 drawing = MegaLottoAnna::Drawing.new.draw
